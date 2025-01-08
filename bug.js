@@ -1,0 +1,1 @@
+In a Next.js application, I encountered an unusual issue where the `getStaticProps` or `getStaticPaths` function was not correctly receiving the `locale` parameter passed from the URL.  Even though I had configured the `i18n` setting in `next.config.js`, the `locale` within `getStaticProps` or `getStaticPaths` remained undefined. This prevented correct content localization.
